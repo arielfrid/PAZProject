@@ -9,7 +9,9 @@ p {
       direction: rtl;
       text-align: right;
       font-family: Arial;
-      font-size:15px;
+      color: #fff;
+      font-size: 14px;
+      font-weight: bold;
      
   }
   
@@ -69,16 +71,23 @@ p {
   }
   
   header {
-    position: fixed;
-    top: 0;
-    left: 0;
-      color: red;
-    text-align: center;
-    width: 100%;
-    border-bottom: 3px solid black;
-    height: 80px;
-    box-sizing: border-box;
-    z-index: 1;
+    direction:
+  rtl;
+  display:block;
+  font-family:"Arial (Hebrew)", Arial;
+  height:105px;
+  line-height:16px;
+  margin-bottom:0px;
+  margin-left:0px;
+  margin-right:0px;
+  margin-top:0px;
+  padding-bottom:0px;
+  padding-left:0px;
+  padding-right:0px;
+  padding-top:0px;
+  position:relative;
+  width:900px;
+  z-index:100
   }
   
    footer {
