@@ -68,4 +68,28 @@ p {
       display: block;
   }
   
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+      color: red;
+    text-align: center;
+    width: 100%;
+    border-bottom: 3px solid black;
+    height: 80px;
+    box-sizing: border-box;
+    z-index: 1;
+  }
+  
+   footer {
+    background-color: gray;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    color:red;
+    width: 100%;
+    text-align: center;
+    height: 70px;
+    border-top: 2px solid black;
+  }
   
